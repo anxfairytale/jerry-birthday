@@ -1,0 +1,9 @@
+@keyframes float{50%{transform:translateY(-14px) rotate(6deg)}}
+@keyframes bounce{50%{transform:translate(-50%,8px)}}
+@keyframes fade{from{opacity:0}}
+@keyframes pop{from{transform:scale(.8);opacity:0}}
+@keyframes flicker{to{transform:scale(1.1) rotate(4deg)}}
+@keyframes burst{to{transform:translate(var(--x),var(--y)) rotate(720deg);opacity:0}}
+.floaty{position:absolute;font-size:2rem;animation:float 5s ease-in-out infinite}
+.f1{top:10%;left:12%}.f2{top:20%;right:14%;animation-delay:1s}.f3{bottom:15%;left:20%;animation-delay:2s}.f4{bottom:12%;right:18%;animation-delay:3s}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
