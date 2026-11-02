@@ -36,12 +36,12 @@ export const coverPhoto = '/images/jerry/cover.jpeg'   // TODO: your best editor
 
 // 6. PHOTOS — type: 'jerry' (solo) or 'us' (both of you)
 export const photos = [
-  { src: '/images/jerry/photo1.jpeg', caption: 'Main character energy 💜', note: 'TODO: note', type: 'jerry' },
-  { src: '/images/jerry/photo2.jpeg', caption: 'Prettiest', note: 'TODO: note', type: 'jerry' },
-  { src: '/images/memories/us1.jpeg', caption: 'Partners in crime', note: 'TODO: note', type: 'us' },
-  { src: '/images/memories/us2.jpeg', caption: 'The day we couldn’t stop laughing', note: 'TODO: note', type: 'us' },
-  { src: '/images/jerry/photo3.jpeg', caption: 'Fav Place', note: 'TODO: note', type: 'jerry' },
-  { src: '/images/memories/us3.jpeg', caption: 'Million dollar smileee', note: 'TODO: note', type: 'us' },
+  { src: '/images/jerry/photo1.jpeg', caption: 'Main character energy 💜', note: '', type: 'jerry' },
+  { src: '/images/jerry/photo2.jpeg', caption: 'Prettiest', note: '', type: 'jerry' },
+  { src: '/images/memories/us1.jpeg', caption: 'Partners in crime', note: '', type: 'us' },
+  { src: '/images/memories/us2.jpeg', caption: 'The day we couldn’t stop laughing', note: '', type: 'us' },
+  { src: '/images/jerry/photo3.jpeg', caption: 'Fav Place', note: '', type: 'jerry' },
+  { src: '/images/memories/us3.jpeg', caption: 'Million dollar smileee', note: '', type: 'us' },
 ]
 
 // 10. INSIDE JOKES & MEMORIES (sticky notes in the scrapbook)
